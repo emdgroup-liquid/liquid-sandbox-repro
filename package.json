@@ -1,0 +1,12 @@
+{
+  "name": "liquid-sandbox-cdn",
+  "version": "1.0.0",
+  "description": "This minimalistic sandbox is there to help you quickly create minimal reproducible examples of issues you find in Liquid Oxygen.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emdgroup-liquid/liquid-sandbox-cdn.git"
+  },
+  "scripts": {
+    "start": "npx --yes serve"
+  }
+}

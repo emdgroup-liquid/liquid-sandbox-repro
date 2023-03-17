@@ -1,0 +1,20 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@emdgroup-liquid/liquid/dist/css/liquid.css" />
+    <script type="module">
+      import { defineCustomElements } from "https://cdn.jsdelivr.net/npm/@emdgroup-liquid/liquid/dist/loader/index.js";
+      defineCustomElements();
+    </script>
+    <title>Liquid – Sandbox App</title>
+  </head>
+  <body>
+    <ld-button>Click me</ld-button>
+    <script>
+      const ldButton = document.currentScript.previousElementSibling
+      clickCount = 0
+      ldButton.addEventListener('click', () => {
+        ldButton.innerHTML = `Click ${++clickCount}`
+      })
+    </script>
+  </body>
+</html>
